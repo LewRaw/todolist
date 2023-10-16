@@ -14,7 +14,7 @@ form.addEventListener('submit', function (event) {
         password: password
     };
 
-    fetch('http://localhost:8080/users/create/', {
+    fetch(`/users/create/`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
